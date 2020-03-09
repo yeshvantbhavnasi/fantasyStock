@@ -1,0 +1,69 @@
+/* CSS styles for yeshvant bhavnasi blog */
+@import url("https://fonts.googleapis.com/css?family=Ubuntu");
+
+body {
+  font-family: "Ubuntu", sans-serif;
+  margin: auto;
+  max-width: 50rem;
+  padding: 1rem;
+  background-color: #fafafa;
+  color: #000;
+  font-size: 18px;
+  line-height: 145%;
+}
+.nav {
+  margin: 1rem 0 3rem;
+  display: flex;
+  justify-content: space-between;
+  font-size: 0.9rem;
+}
+.nav a {
+  color: grey;
+  text-decoration: none;
+  transition: color 0.25s;
+  margin-left: 0.5rem;
+}
+a:hover {
+  color: #0087f8;
+}
+.title {
+  margin: 0.67em 0;
+  color: #454a79;
+  font-size: 1.75rem;
+  font-weight: 700;
+  text-align: center;
+}
+.quote {
+  color: #4f7a2f;
+  font-size: 1rem;
+  text-align: center;
+}
+ul.findme {
+  list-style-type: none;
+}
+.findme a {
+  color: #888;
+  text-decoration: none;
+  transition: color 0.25s;
+}
+.blog-header a {
+  color: #000;
+  text-decoration: none;
+}
+li {
+  margin-top: 1rem;
+}
+footer {
+  color: #888;
+  font-size: 0.9rem;
+  font-family: "Lato", -apple-system, Helvetica, Arial, sans-serif;
+  font-weight: 400;
+  text-align: center;
+}
+
+.blog-post {
+  background-color: white;
+  padding: 1%;
+  border-radius: 1%;
+  margin: 1%;
+}

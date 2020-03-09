@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="static/content.css" />
+
+    <title>Fantasy Trade</title>
+  </head>
+  <body class="d-flex flex-column h-100">
+    <!-- Begin page content -->
+    <main role="main" class="flex-shrink-0">
+      <div class="container">
+        <h1>Hello!</h1>
+        <form id="serach-form" class="form-inline">
+          <div class="form-group mx-sm-3 mb-2">
+            <label for="stock" class="sr-only">Stock Symbol</label>
+            <input
+              type="text"
+              class="form-control"
+              id="symbol"
+              required="true"
+              placeholder="symbol"
+            />
+          </div>
+          <button type="submit" id="search" class="btn btn-primary mb-2">
+            Search
+          </button>
+        </form>
+        <div id="div1" class="container"></div>
+      </div>
+    </main>
+
+    <footer class="footer mt-auto py-3">
+      <div class="container">
+        <span class="text-muted">Made with Love ♡ Fantasy Trade team.</span>
+      </div>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="/static/index.js"></script>
+    <script src="/static/renderjson.js"></script>
+  </body>
+</html>
